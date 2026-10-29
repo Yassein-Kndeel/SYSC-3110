@@ -50,7 +50,7 @@ import java.util.ArrayList;
 
 
         public static void main(String[] args){
-            BuddyInfo Yassein = new BuddyInfo("Yassein");
+            BuddyInfo Yassein = new BuddyInfo("Yassein", 21);
             AddressBook book = new AddressBook();
 
             book.addBuddy(Yassein);

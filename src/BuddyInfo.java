@@ -2,13 +2,16 @@
 public class BuddyInfo {
 
         private String name;
+        private int age;
 
-        public BuddyInfo(String name) {
+        public BuddyInfo(String name, int age) {
             this.name = name;
+            this.age = age;
         }
 
         public BuddyInfo(){
             name = "Unknown";
+            age = 0;
         }
 
         public String getName() {
@@ -20,11 +23,8 @@ public class BuddyInfo {
         }
 
 
-        static void main(String[] args) {
 
-            BuddyInfo homer = new BuddyInfo("Homer");
-            System.out.print("Hello " +  homer.getName());
-        }
+
 
     }
 
