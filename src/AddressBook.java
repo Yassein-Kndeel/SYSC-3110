@@ -50,11 +50,11 @@ import java.util.ArrayList;
 
 
         public static void main(String[] args){
-            BuddyInfo homer = new BuddyInfo("Homer");
+            BuddyInfo Yassein = new BuddyInfo("Yassein");
             AddressBook book = new AddressBook();
 
-            book.addBuddy(homer);
-            book.removeBuddy(homer);
+            book.addBuddy(Yassein);
+            book.removeBuddy(Yassein);
             System.out.println(book.size());
         }
 
